@@ -1,0 +1,58 @@
+body{
+    background-image: radial-gradient(#f9cb30, #eda72b, #eb9929);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: cursive;
+}
+
+.btn {
+  font-family: cursive;
+  padding: 1rem 2.5rem;
+  color: white;
+  margin: 25px;
+  background-color: #9a1c09;
+  border: none;
+  letter-spacing: 2px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+  border: 1px solid #9a1c09;
+  color: #9a1c09;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img{
+  height: 120px;
+  width: 200px;
+  margin: 25px;
+}
+
+.jokesLang{
+  font-size: x-large;
+  font-weight: 700;
+  letter-spacing: 1;
+  position: absolute;
+  left:50px;
+  top: 40px;
+  margin: 8px;
+}
+
+.jokesLang:hover{
+  cursor: pointer;
+  color: #9a1c09;
+  transition: color .5s;
+}
+
+h1{
+  font-size: xxx-large;
+}
